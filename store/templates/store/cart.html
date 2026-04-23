@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+    <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
+</head>
+<body>
+
+    <h1>Your Cart 🛒</h1>
+
+    {% if cart %}
+        {% for item, qty in cart.items %}
+            <div style="margin:10px auto; padding:10px; background:white; border-radius:10px; width:300px;">
+                 <h3>{{ item }}</h3>
+                 <a href="{% url 'decrease_qty' item %}">➖</a>
+    
+                 <span> {{ qty }} </span>
+    
+                 <a href="{% url 'increase_qty' item %}">➕</a>
+
+                <br><br>
+              <a href="{% url 'remove_item' item %}" style="color:red;">❌ Remove</a>
+            </div>
+        {% endfor %}
+           <h2>Total Items: {{ total_items }}</h2>
+           <h2>Total Price: ₹{{ total_price }}</h2>
+    {% else %}
+        <p>Cart is empty</p>
+    {% endif %}
+
+    <a href="{% url 'clear_cart' %}">Clear Cart</a>
+    <br><br>
+    <a href="{% url 'products' %}">Back to Products</a>
+
+</body>
+</html>

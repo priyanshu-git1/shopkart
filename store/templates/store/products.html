@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
+</head>
+<body>
+
+<a href="/cart/">Go to Cart 🛒 ({{ cart_count }})</a>
+
+<h1>Our Products</h1>
+
+{% for product in products %}
+    <div style="margin:20px; padding:20px; background:white; border-radius:10px;">
+        <h2>{{ product.name }}</h2>
+        <p>Price: ₹{{ product.price }}</p>
+
+        <a href="{% url 'add_to_cart' product.name %}">Add to Cart</a>
+    </div>
+{% endfor %}
+
+</body>
+</html>
