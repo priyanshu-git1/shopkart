@@ -1,0 +1,705 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$aKgpzA1uc9rUtJyyiuKzbN$eaB83Gg29G5rOxys0XylWxiFyOl/L29AEp43CNQb+lM=",
+        "last_login": "2026-09-09T05:51:43.236Z",
+        "is_superuser": false,
+        "username": "admin",
+        "first_name": "Ankit",
+        "last_name": "Gangwar",
+        "email": "Ankit@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-09-08T12:11:56.715Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$IxTNhYL1namSZ11Eg25J7E$EeIOl+IQksQeoHT7q+J2F+5IRqA9+iZ6hL7Rlm4HxAM=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "superadmin",
+        "first_name": "",
+        "last_name": "",
+        "email": "superadmin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-09-09T17:10:27.979Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$e0jOJ2tamDdNX6b7hk9FCv$2g2jgINFQPDtOjUxsZ0EcVyR5l1iQudYMGCfWlGDyzM=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "speradmin",
+        "first_name": "",
+        "last_name": "",
+        "email": "superadmin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-09-09T17:25:06.329Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1vzkih70oxdo83uqtzzr41zi4i98hwpw",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x4B7b:AS5-u49E28MDBybahNgmgRfcJ1OCXrimCZOcf7hP11w",
+        "expire_date": "2026-09-23T05:45:23.568Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "aayasetnwzasqx058xfxe2dv4ogowbqf",
+    "fields": {
+        "session_data": ".eJxVjMsOgjAQAP9lz6bpawvl6N1vaHbbraAGEgon478bEg56nZnMGxLt25j2JmuaCgzg4fLLmPJT5kOUB833ReVl3taJ1ZGo0zZ1W4q8rmf7NxipjTCAs53xvtNYuErEgCSCHfocjetjsCFoIbTZRdQ118B9YYPiHPXW1MLw-QLCnTd_:1x3uo2:XFWWb9ee6psG1rGnSzqQCpP0TO9DuiVbhpFAA1gkbXE",
+        "expire_date": "2026-09-22T12:20:06.232Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ckmauf4aimqau3fvla83amlymbgtpl6z",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x49Ll:WhMae6piZMa07xVktwy5aLDZip69WAbm5aRHQ_n0zVM",
+        "expire_date": "2026-09-23T03:51:53.196Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cllszliu3ud22twves974ygwgwx5cx1m",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x49Bm:qCOedtBW1NU518aZeFoIPYk0uVKH2s2FcWlKTYY61fQ",
+        "expire_date": "2026-09-23T03:41:34.568Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "du1taq5ixi6bvntbq32610se853g5yob",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x49PY:Wo6KMuxgbfoHMhL2jtk2_Zq4_Hmmrf2B_khzJ188hHg",
+        "expire_date": "2026-09-23T03:55:48.964Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hnhcewur5gekmuexm8rxxaccd4llvs9e",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x49MK:f1MxItzZsKzVgG_u02VVMQlhGdZGMhKACBYMkVw6sGY",
+        "expire_date": "2026-09-23T03:52:28.620Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "k16m5re911xxbsk63fpgxm1t4csi9616",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAQAP-yNbKc9UlK-rzBWns3OIBiKUeF-DuKlALamdG8IdG-1bSvsqSJoYcOLr8sU3nKfAh-0HxvqrR5W6asjkSddlVDY3ndzvZvUGmt0EP2pmBAnUtnrPbkrhxRQuwwimU0NEZxPNrsYxBm1hZzQFs0E2JxFj5f1ak3ww:1x3uQo:J4UXueEfGpzGBZZ6nOgDOBpsxFH-nC_v0GE_D6iUVEg",
+        "expire_date": "2026-09-22T11:56:06.501Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kfdy56wkvecv9qhn3ki6vspkzrwfh9hy",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x4BDj:HMY5Jfn3QCOJybdzvplSX1qOsCGWl61SQewhOH_t5yQ",
+        "expire_date": "2026-09-23T05:51:43.415Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mfjweh6xo47lbhm5x2tueucqwr2poh0v",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x496n:sAyULsSyPxUwKHfpL10Qt8cMQDogZFkV1MWocFotjfA",
+        "expire_date": "2026-09-23T03:36:25.905Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nyllcve9wvj5s91q0589rxs7behizc15",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x4B7x:Q_pnQPuAASBt6hVizAnQ1x9exn72xs6Opz06NE8WYc4",
+        "expire_date": "2026-09-23T05:45:45.064Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "q5sg3xdgwea12hxgosj9jbf3bg2fxmur",
+    "fields": {
+        "session_data": ".eJxVjLsOwjAMAP_FM4ryKCHuyM43VHYSkwJKpKadEP-OKnWA9e50b5hoW8u09bxMc4IRLJx-GVN85rqL9KB6byq2ui4zqz1Rh-3q1lJ-XY_2b1CoFxiBrKAQO2QO0RvPOpKIH5AxBnRnjeKInb_kwRjWVnttsmAijZSDEfh8AQIBOF8:1x3zjH:_3G49j5ckz42fdkiIr-yWj2k3H3TGsieq8a53Te2DxM",
+        "expire_date": "2026-09-22T17:35:31.494Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rf7kji3wt1hzwc9aae8pvxlfebma2jlc",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x4BDW:LG1AgSIY5qRR_vQix0_M-8mPob9YCPvYQRPGDH6JriE",
+        "expire_date": "2026-09-23T05:51:30.264Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vvqpe88m44n3xtsuce9e991lguoh9tjm",
+    "fields": {
+        "session_data": ".eJxVjLsKwzAMAP9FczG1HWwrY_d-Q5BkuU5bHMhjCv33EsjQrnfH7TDQttZhW3Qexgw9OLj8MiZ5aTtEflJ7TEamts4jmyMxp13Mfcr6vp3t36DSUqGHgs67wjl6lwKJoMUgbMmzw45RAlpKnfoQKV1jpGKDV1GOoqFgYvh8AecxOEo:1x49dg:9RT0RtKeENFHhuljFydRCI5Os5nfMY7j7NqDKbstm1c",
+        "expire_date": "2026-09-23T04:10:24.747Z"
+    }
+},
+{
+    "model": "products.category",
+    "pk": "0af7e353-f8d4-4488-8352-51f1d0bd53a3",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.023Z",
+        "updated_at": "2026-09-08T11:52:09.023Z",
+        "category_name": "Sports",
+        "slug": "sports",
+        "category_image": null
+    }
+},
+{
+    "model": "products.category",
+    "pk": "21663b40-5da0-49e4-996a-ede530535f14",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.865Z",
+        "updated_at": "2026-09-08T11:52:08.865Z",
+        "category_name": "Womens Fashion",
+        "slug": "womens-fashion",
+        "category_image": null
+    }
+},
+{
+    "model": "products.category",
+    "pk": "2964960b-23ca-4c19-9f7d-08341ca81c7d",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.713Z",
+        "updated_at": "2026-09-08T11:52:08.713Z",
+        "category_name": "Mens Fashion",
+        "slug": "mens-fashion",
+        "category_image": null
+    }
+},
+{
+    "model": "products.category",
+    "pk": "7b54f15d-af5f-4095-8123-43571bb1c044",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.145Z",
+        "updated_at": "2026-09-08T11:52:09.145Z",
+        "category_name": "Casual",
+        "slug": "casual",
+        "category_image": null
+    }
+},
+{
+    "model": "products.colorvariant",
+    "pk": "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+    "fields": {
+        "created_at": "2026-09-09T04:04:57.952Z",
+        "updated_at": "2026-09-09T04:04:57.952Z",
+        "color_name": "Red",
+        "price": 0
+    }
+},
+{
+    "model": "products.colorvariant",
+    "pk": "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+    "fields": {
+        "created_at": "2026-09-09T04:04:57.775Z",
+        "updated_at": "2026-09-09T04:04:57.775Z",
+        "color_name": "White",
+        "price": 0
+    }
+},
+{
+    "model": "products.colorvariant",
+    "pk": "9fe7faae-eb6b-4359-b556-63b817b51da8",
+    "fields": {
+        "created_at": "2026-09-09T04:04:57.636Z",
+        "updated_at": "2026-09-09T04:04:57.636Z",
+        "color_name": "Black",
+        "price": 0
+    }
+},
+{
+    "model": "products.colorvariant",
+    "pk": "a245d728-78ee-4200-bfc3-eb356962397c",
+    "fields": {
+        "created_at": "2026-09-09T04:04:58.044Z",
+        "updated_at": "2026-09-09T04:04:58.045Z",
+        "color_name": "Blue",
+        "price": 0
+    }
+},
+{
+    "model": "products.sizevariant",
+    "pk": "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+    "fields": {
+        "created_at": "2026-09-08T11:55:46.906Z",
+        "updated_at": "2026-09-08T11:55:46.906Z",
+        "size_name": "UK 7",
+        "price": 0,
+        "order": 2
+    }
+},
+{
+    "model": "products.sizevariant",
+    "pk": "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+    "fields": {
+        "created_at": "2026-09-08T11:55:46.989Z",
+        "updated_at": "2026-09-08T11:55:46.989Z",
+        "size_name": "UK 8",
+        "price": 0,
+        "order": 3
+    }
+},
+{
+    "model": "products.sizevariant",
+    "pk": "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+    "fields": {
+        "created_at": "2026-09-08T11:55:47.088Z",
+        "updated_at": "2026-09-08T11:55:47.088Z",
+        "size_name": "UK 10",
+        "price": 0,
+        "order": 5
+    }
+},
+{
+    "model": "products.sizevariant",
+    "pk": "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+    "fields": {
+        "created_at": "2026-09-08T11:55:47.003Z",
+        "updated_at": "2026-09-08T11:55:47.003Z",
+        "size_name": "UK 9",
+        "price": 0,
+        "order": 4
+    }
+},
+{
+    "model": "products.sizevariant",
+    "pk": "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0",
+    "fields": {
+        "created_at": "2026-09-08T11:55:46.753Z",
+        "updated_at": "2026-09-08T11:55:46.754Z",
+        "size_name": "UK 6",
+        "price": 0,
+        "order": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": "04c251bf-0262-4fd1-ad84-973be38fbfdc",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.192Z",
+        "updated_at": "2026-09-08T11:52:09.192Z",
+        "parent": null,
+        "product_name": "Everyday Canvas",
+        "slug": "everyday-canvas",
+        "category": "7b54f15d-af5f-4095-8123-43571bb1c044",
+        "price": 1899,
+        "discount_percentage": 35,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": "1b350a11-ad77-4743-a06c-02fa2edd9bbe",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.741Z",
+        "updated_at": "2026-09-08T11:52:08.741Z",
+        "parent": null,
+        "product_name": "Classic Runner",
+        "slug": "classic-runner",
+        "category": "2964960b-23ca-4c19-9f7d-08341ca81c7d",
+        "price": 2499,
+        "discount_percentage": 10,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": "2e4bfb37-1070-4ffe-b696-39011af8d3ac",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.040Z",
+        "updated_at": "2026-09-08T11:52:09.040Z",
+        "parent": null,
+        "product_name": "Velocity Pro",
+        "slug": "velocity-pro",
+        "category": "0af7e353-f8d4-4488-8352-51f1d0bd53a3",
+        "price": 3999,
+        "discount_percentage": 18,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": "7265acae-0b73-4fbf-8076-c5a119fd0997",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.788Z",
+        "updated_at": "2026-09-08T11:52:08.788Z",
+        "parent": null,
+        "product_name": "Street High Top",
+        "slug": "street-high-top",
+        "category": "2964960b-23ca-4c19-9f7d-08341ca81c7d",
+        "price": 3299,
+        "discount_percentage": 30,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": "78a49ced-0cb3-4cdb-891c-7d697cde87d2",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.245Z",
+        "updated_at": "2026-09-08T11:52:09.245Z",
+        "parent": null,
+        "product_name": "Urban Leather",
+        "slug": "urban-leather",
+        "category": "7b54f15d-af5f-4095-8123-43571bb1c044",
+        "price": 3599,
+        "discount_percentage": 40,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": "95fc322a-837e-49c5-b58b-fe023108c968",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.974Z",
+        "updated_at": "2026-09-08T11:52:08.974Z",
+        "parent": null,
+        "product_name": "Cloud Walk Trainer",
+        "slug": "cloud-walk-trainer",
+        "category": "21663b40-5da0-49e4-996a-ede530535f14",
+        "price": 2199,
+        "discount_percentage": 25,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": "c4ccaa6b-ebb3-43c3-8e29-aa7afe46679a",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.912Z",
+        "updated_at": "2026-09-08T11:52:08.912Z",
+        "parent": null,
+        "product_name": "Rose Court Sneaker",
+        "slug": "rose-court-sneaker",
+        "category": "21663b40-5da0-49e4-996a-ede530535f14",
+        "price": 2899,
+        "discount_percentage": 15,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.product",
+    "pk": "fe91003e-7982-41ba-80d0-84d49cb9929b",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.088Z",
+        "updated_at": "2026-09-08T11:52:09.088Z",
+        "parent": null,
+        "product_name": "Sprint Flex",
+        "slug": "sprint-flex",
+        "category": "0af7e353-f8d4-4488-8352-51f1d0bd53a3",
+        "price": 2799,
+        "discount_percentage": 20,
+        "product_desription": "Comfortable everyday footwear from FootFusion.",
+        "newest_product": true,
+        "color_variant": [
+            "1ac4f47b-1fe0-4265-8fbb-1fa621c16c51",
+            "5bb0fd78-4aa3-45e9-b430-f7c46ab96b91",
+            "9fe7faae-eb6b-4359-b556-63b817b51da8",
+            "a245d728-78ee-4200-bfc3-eb356962397c"
+        ],
+        "size_variant": [
+            "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+            "6f11874d-81de-4333-89ae-ae1b0e430ec9",
+            "a0bc282b-d902-493c-b13c-0c23f66f7a73",
+            "e1cc15ca-9e07-4ab6-941a-a8d46b2910ca",
+            "e54fbb89-d5bd-4b9d-8b95-a9994ec502d0"
+        ]
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "3e9d721d-dede-453a-a788-a6eeec004348",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.942Z",
+        "updated_at": "2026-09-08T11:52:08.943Z",
+        "product": "c4ccaa6b-ebb3-43c3-8e29-aa7afe46679a",
+        "image_url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "51ce58a4-bfdd-4547-9076-de6b0397bd8b",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.757Z",
+        "updated_at": "2026-09-08T11:52:08.757Z",
+        "product": "1b350a11-ad77-4743-a06c-02fa2edd9bbe",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "7426e4f8-bb20-4c6e-8cf9-2103eb0905f7",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.991Z",
+        "updated_at": "2026-09-08T11:52:08.991Z",
+        "product": "95fc322a-837e-49c5-b58b-fe023108c968",
+        "image_url": "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=800"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "97f55232-617d-4ac0-9165-69c0f6e00f48",
+    "fields": {
+        "created_at": "2026-09-08T11:52:08.816Z",
+        "updated_at": "2026-09-08T11:52:08.819Z",
+        "product": "7265acae-0b73-4fbf-8076-c5a119fd0997",
+        "image_url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "9c14852c-727b-48aa-963b-e4e5c12a75eb",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.114Z",
+        "updated_at": "2026-09-08T11:52:09.114Z",
+        "product": "fe91003e-7982-41ba-80d0-84d49cb9929b",
+        "image_url": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=800"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "d850058b-aca6-4a97-b31d-fd4411ef0c85",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.212Z",
+        "updated_at": "2026-09-08T11:52:09.212Z",
+        "product": "04c251bf-0262-4fd1-ad84-973be38fbfdc",
+        "image_url": "https://images.unsplash.com/photo-1520256862855-398228c41684?w=800"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "e76b3e62-cbbf-45db-b1f8-3a861b59269a",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.056Z",
+        "updated_at": "2026-09-08T11:52:09.056Z",
+        "product": "2e4bfb37-1070-4ffe-b696-39011af8d3ac",
+        "image_url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": "f8b6e429-352e-4f39-8993-ef6775d36616",
+    "fields": {
+        "created_at": "2026-09-08T11:52:09.296Z",
+        "updated_at": "2026-09-08T11:52:09.296Z",
+        "product": "78a49ced-0cb3-4cdb-891c-7d697cde87d2",
+        "image_url": "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?w=800"
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": "624ec822-bb30-44ae-a303-572fd1145d54",
+    "fields": {
+        "created_at": "2026-09-09T17:25:08.334Z",
+        "updated_at": "2026-09-09T17:25:08.311Z",
+        "user": [
+            "speradmin"
+        ],
+        "is_email_verified": false,
+        "email_token": null,
+        "profile_image": null,
+        "bio": null,
+        "shipping_address": null
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": "67044865-27d0-4404-9fda-683c6f0de8b3",
+    "fields": {
+        "created_at": "2026-09-09T17:10:29.717Z",
+        "updated_at": "2026-09-09T17:10:29.700Z",
+        "user": [
+            "superadmin"
+        ],
+        "is_email_verified": false,
+        "email_token": null,
+        "profile_image": null,
+        "bio": null,
+        "shipping_address": null
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": "eed10826-2aa4-47d9-984f-a25315518e6b",
+    "fields": {
+        "created_at": "2026-09-09T05:51:43.325Z",
+        "updated_at": "2026-09-08T12:11:56.903Z",
+        "user": [
+            "admin"
+        ],
+        "is_email_verified": true,
+        "email_token": "dee8b7d7-3bef-43b7-83dd-7ae37778ab6e",
+        "profile_image": null,
+        "bio": null,
+        "shipping_address": null
+    }
+},
+{
+    "model": "accounts.cart",
+    "pk": "470e0437-9456-4401-9f7d-46c844499a10",
+    "fields": {
+        "created_at": "2026-09-09T05:51:43.651Z",
+        "updated_at": "2026-09-09T05:51:43.651Z",
+        "user": [
+            "admin"
+        ],
+        "coupon": null,
+        "is_paid": false,
+        "razorpay_order_id": null,
+        "razorpay_payment_id": null,
+        "razorpay_payment_signature": null
+    }
+},
+{
+    "model": "accounts.cartitem",
+    "pk": "041a5c46-029b-4a79-805c-37c45e435f09",
+    "fields": {
+        "created_at": "2026-09-09T05:51:43.682Z",
+        "updated_at": "2026-09-09T05:51:43.682Z",
+        "cart": "470e0437-9456-4401-9f7d-46c844499a10",
+        "product": "7265acae-0b73-4fbf-8076-c5a119fd0997",
+        "color_variant": "9fe7faae-eb6b-4359-b556-63b817b51da8",
+        "size_variant": "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+        "quantity": 1
+    }
+},
+{
+    "model": "accounts.cartitem",
+    "pk": "43de5d0f-06de-4411-8dfa-485002a1228f",
+    "fields": {
+        "created_at": "2026-09-09T05:53:30.047Z",
+        "updated_at": "2026-09-09T05:52:11.725Z",
+        "cart": "470e0437-9456-4401-9f7d-46c844499a10",
+        "product": "1b350a11-ad77-4743-a06c-02fa2edd9bbe",
+        "color_variant": null,
+        "size_variant": "28d7ad7b-f4da-4369-b209-a2cf6132bf48",
+        "quantity": 2
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+}
+]
