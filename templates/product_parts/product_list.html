@@ -1,0 +1,25 @@
+<!-- Product List -->
+<div class="row">
+  {% for product in list_products %}
+  <div class="col-md-3">
+    <figure class="card card-product-grid">
+      <div class="img-wrap">
+        <img src="{{product.product_images.first.image_url}}" />
+      </div>
+      <figcaption class="info-wrap border-top">
+        <a href="{% url 'get_product' product.slug %}" class="title">
+          <b>{{ product.product_name }}</b></a>
+        <div class="price mt-2">
+          {% if product.discount_percentage %}<del class="text-muted small">₹{{ product.price }}.00</del>{% endif %}
+          ₹{{ product.get_discounted_price }}.00
+          {% if product.discount_percentage %}<span class="badge badge-success">{{ product.discount_percentage }}% OFF</span>{% endif %}
+        </div>
+        <a href="{% url 'get_product' product.slug %}" class="btn btn-outline-primary btn-sm mt-2">
+          Buy at ₹{{ product.get_discounted_price }}
+        </a>
+      </figcaption>
+    </figure>
+  </div>
+
+  {% endfor %}
+</div>
