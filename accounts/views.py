@@ -38,9 +38,9 @@ def login_page(request):
             messages.warning(request, 'Account not found!')
             return HttpResponseRedirect(request.path_info)
 
-        if not user_obj[0].profile.is_email_verified and not user_obj[0].is_staff:
-            messages.error(request, 'Account not verified!')
-            return HttpResponseRedirect(request.path_info)
+        # if not user_obj[0].profile.is_email_verified and not user_obj[0].is_staff:
+        #     messages.error(request, 'Account not verified!')
+        #     return HttpResponseRedirect(request.path_info)
 
         user_obj = authenticate(username=username, password=password)
         if user_obj:
